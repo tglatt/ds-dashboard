@@ -107,6 +107,10 @@ const styles = theme => ({
 });
 
 const theme = createMuiTheme({
+  // https://material-ui.com/style/typography/#migration-to-typography-v2
+  typography: {
+    useNextVariants: true,
+  },
   palette: {
     primary: { main: "#003189" }
   }
